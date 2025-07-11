@@ -36,8 +36,8 @@ header span{
     
 }
 h1 {
-    margin: 1rem 10px;
     color: var(--primary-color);
+    padding-left: 1.5vw;
 }
 h2{
     text-align: center;

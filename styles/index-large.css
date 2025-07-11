@@ -13,10 +13,9 @@
     .hamburger{
         display: none;
     }
-    .navigation {
+    .navigation{
         display: block;
-        width: 1298px;
-
+        width: 97.3vw;
     }
 
     .navigation ul {
