@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 231- Rocio Apaza</title>
+    <meta name="description" content="Design and develop your page ">
+    <meta name="author" content="Rocio Apaza">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/index-normalize.css">
+    <link rel="stylesheet" href="styles/index-medium.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/filter-courses.js" defer></script>
+    <script src="scripts/last-modified.js" defer></script>
 </head>
 <body>
+    <header>
+        <img src="images/alipay.svg" alt="site logo" >
+        <span>United Force</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <h1>Home</h1>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <div class="name">
+                <p>My name is Rocio Apaza Paricahua. I was born in Arequipa City, Peru, and I live with my family. My daughter and my husband are my love, and I love spending time with them. 
+                    I am a person with great academic and spiritual goals. I am currently a student at BYU-Idaho. I love knowing that we can
+                    learn new things every day by giving our best. </p>
+            </div>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/me.jpg" alt="This is me">
+        </section>
+        <section class="new">
+            <h2>Web Certificate Courses</h2>
+            <div class="option">
+
+            </div>
+            <div class="courses">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/EliMAmy" target="_blank"><img src="images/github.svg" alt="github" width="48" height="48"></a>
+            <a href="https://www.linkedin.com/in/rocio-maryorie-apaza" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="48" height="48"></a>
+            <a href="https://www.facebook.com/rocio.apaza.50" target="_blank"><img src="images/fb.svg" alt="facebook" width="48" height="48"></a>
+            <a href="https://teams.microsoft.com" target="_blank"><img src="images/microsoft-teams.svg" alt="microsoft-teams" width="48" height="48"></a>
+        </div>
+        <p>&#x1F338;<span id="currentyear"></span> &#x1F338; Rocio Apaza Paricahua ,Peru &#x1F338;</p>
+        <p id="lastModified"></p>
+    </footer>
     
 </body>
 </html>

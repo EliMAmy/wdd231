@@ -1,0 +1,55 @@
+@media only screen and (min-width: 38rem){
+    header,main, nav,footer{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    header {
+    display: grid;
+    grid-template-columns: 44px auto; 
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    .navigation {
+        display: block;
+        width: 1298px;
+
+    }
+
+    .navigation ul {
+        display:flex;
+        gap:50px;
+    }
+    .navigation li{
+        padding: 2px;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr auto;
+        gap: 20px;
+    }
+    section h2{
+        margin: 0;
+    }
+    .new{
+        grid-area: 2/1/2/3;
+    }
+    .option{
+        padding: 15px;
+    }
+    .option section button{
+    border-radius: 10px;
+    }
+    .courses{
+    display:block;
+    padding-left: 30px;
+    }
+    .courses p{
+        width: 1235px;  
+    }
+}
