@@ -21,11 +21,11 @@
     <meta property="og:description"
         content="The home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.">
     <meta property="og:url" content="https://www.arequipa.com/">
-    <meta property="og:image" content="https://blog.machupicchuperutours.com/wp-content/uploads/2024/12/guia-de-viaje-arequipa-5.jpg" />
+    <meta property="og:image" content="https://blog.machupicchuperutours.com/wp-content/uploads/2024/12/guia-de-viaje-arequipa-5.jpg">
 </head>
 <body>
     <header>
-        <img src="images/logo.svg" alt="site logo" height="46px" width="46px" >
+        <img src="images/logo.svg" alt="site logo">
         <span>Force Chamber of Commerce</span>
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
         <nav id="nav-bar" class="navigation">
@@ -38,9 +38,9 @@
         </nav>
     </header>
     <main>
-        <section class="img">
+        <div>
             <img class="arequipa" src="images/arequipa.webp" alt="Arequipa,Country">
-        </section>
+        </div>
         <h1>Home</h1>
         <section class="info">
             <div class="event">
@@ -57,30 +57,32 @@
                     <table>
                         <tbody>
                             <tr>
+                                <td></td>
                                 <td> <span id="current">17 ºF</span></td>
                             </tr>
                             <tr>
+                                <td></td>
                                 <td><span id="condition">Clear</span></td>
                             </tr>
                             <tr>
                                 <td>High:</td>
-                                <td><span id="">73</span>°</td>
+                                <td><span>73</span>°</td>
                             </tr>
                             <tr>
                                 <td>Low:</td>
-                                <td><span id="">54</span>°</td>
+                                <td><span>54</span>°</td>
                             </tr>
                             <tr>
                                 <td>Humidity:</td>
-                                <td><span id="humidity">21</span>%</td>
+                                <td><span>21</span>%</td>
                             </tr>
                             <tr>
                                 <td>Sunrise:</td>
-                                <td><span id="sunrise">5:30</span>am</td>
+                                <td><span>5:30</span>am</td>
                             </tr>
                             <tr>
                                 <td>Sunset:</td>
-                                <td><span id="sunset">5:30</span>pm</td>
+                                <td><span>5:30</span>pm</td>
                             </tr>
                         </tbody>
                     </table>
@@ -94,21 +96,21 @@
                     <tbody>
                         <tr>
                             <td>Today:</td>
-                            <td id="bold"><span>11</span>°F</td>
+                            <td id="today"><span>11</span>°F</td>
                         </tr>
                         <tr>
                             <td>Wednesday:</td>
-                            <td id="bold"><span>11</span>°F</td>
+                            <td id="wednesday"><span>11</span>°F</td>
                         </tr>
                         <tr>
                             <td>Thursday:</td>
-                            <td id="bold"><span>13</span>°F</td>
+                            <td id="thursday"><span>13</span>°F</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
-        <section class="myinfo">
+        <section>
             <div id="cards"></div>
         </section>
     </main>

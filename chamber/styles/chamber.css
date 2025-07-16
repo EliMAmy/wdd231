@@ -92,9 +92,9 @@ table{
     display: grid;
     grid-template-columns: 1fr;
 }
-.img .arequipa{
+.arequipa{
     width: 450px;
-    margin: 2;
+    margin: 2px;
 }
 .event{
     background-color: var(--primary-color);
@@ -122,7 +122,7 @@ table{
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
-#bold{
+#today,#wednesday,#thursday{
     font-weight: 600;
 }
 .card{
