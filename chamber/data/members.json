@@ -1,0 +1,62 @@
+{
+    "companies": [
+        {
+            "name": "Incalpaca Textiles Peruanos de Export S.A",
+            "tag": "Your feelings",
+            "address": "Condor 100,Tahuaycani Sachaca",
+            "phone": "(+51) 54 60 30 00",
+            "email": "incalpaca200@gmail.com",
+            "imageurl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALgAuAMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAgMEBQYHAQj/xABFEAACAQMCAgcFBQQIBAcAAAABAgMABBEFEiExBhMiQVFhcTKBkaGxBxQjwfAkQlLRFjNicoLC4fFDU5KiFSU0Y3Ojsv/EABoBAAIDAQEAAAAAAAAAAAAAAAIFAAEDBAb/xAAoEQACAgEDBAICAgMAAAAAAAAAAQIRAwQSIQUTMUEiYSMyM6EUQ1H/2gAMAwEAAhEDEQA/ANerhFQ0FzLA2VOQe6pO2u0nwvJvCumjBOxXFcxSxWi7KGyUIkVwilitF20VkoSIrm2ldlF21LKoTK0UilStN7qZbW2luHOFiQuT5AZq0yUCNlZiqsrN/CGyfhXVki37N67/AOEMCa889HEluGuZ3bLbwxPIbzxLevEVORaldwajDGtzMYwRvDOSOLADn76546ndPYbSwbYbzbwld2VRra8voAvUXUqgDPBqkIOkeoxY6xklH9uMfUVu7OdSRaeropjqHh6UoeFxZMv9qOT8jT2HX9MkwGkljJ/ij/MVLZdodGOudXSkV3ZzY6m7gOe7dxPuNOOqyMjiPEcam4m0YmOudXT0xUUx1dkoZ7K5tp0UojJV2ShvtoUttoVLJQx6ui7CCCOYqEXpZA+oBMfs7r2W76kYtas7m4W2hbtvxWso54P2XtaJm1viuEm4juNSCMsoyrcKhitCJ3jfsd1E43yWmTWKGKQtboSjafa7xTigCC4opFKYrhFREoSK+FVn7Q7n7n0N1SVecsRhX1chPoatJXPDGazj7a7zqNAs7bfhp7rrCPFUU5+bLUlKohQjciidHIhHphdv33Y+7OPyFN2ffd30p5RtGq+4En6j4U/sh1OnxIf3Ixn4cfnUXaDOlXdweclwze7s1x6OO7M2bat7cVGl2Z6y1jbxA+ldkTjTbRW32ER9KfSDgaZtCxMQC13FcBrpNCizhWlIp54f6maRMfwsRRc8KANWSx/DrepxDAuGYf8AuDd9adJ0nvE/r4IZB6bfpUSPZNJbu0PWokn6L3SRbE6Q6cUj+8TCB3Gdknl54xT+GaC7QS20qTR8t0bAgH1FZvq39bD/APH+Zq7dFLcWXR2OSQgdZvmJPdnl8gK5I528rjR2dv8AGpEoRjjQrPekN9fz38s0LFYuYKtg0K5smvUXVA7DNYrqeKTeNr7BhXbuqf0nUokuY7uaUho8cFbHrVSa7doOqxlc4xSG5G7LLtxVqFO15CbPQejava6qCto27YuWJ86kilYh0O6QzaNO/V43SEBg3HIrXOjOqjVrETFX3AnOa68eS+GA0SB7PHwpzb3pXAl4r403kdA6KXwzAlRXCK1YK4JiORZRlWo1QysQQRwPdT2G9GNkvA+PjQbQ7HXrWOfbLc/eOken2a84bcE+rtx+SitgWQN7LZ8qwXptdC96dX8v7sc2xT5RgJ/Osc8qgbYVchK9k2wMnltpCLs6Ko7I3NI2QvPDAcKEhMjAZYFMsSq5PAfIZo5G3SEIZsgMhH+LNV09fMDqL/GW7o3JnTYl8APpUvIexVd6KPu06FfBF+lWH90UykhYmI1zNAjtGuUFBWGzwrq8SBRaMOVSiWdc7QRSG7iKO9IL7dWkU2JazuzDs9rquHrk1M3et74EsokZ7WNBHj2QMAAZprDDBca7YR3LhIQAzk+AycfKk9XNu0rfcuxGQd4ZuZFIdVPtym0/Y0jzjgvoYTM9wqBIzkntBW9kUKipdWltrmPKHqn4gDxoUtcZewuCgM3VzFW5iiykCUE8jzpMHcMgbiTxqTjFilvADYieQqCWnlbB4Z7IQqR8Typ82o8sGMHLwIW10VywCZHDae8Vqf2Ua9btHPpkxzMrGQHn2fyqjWtwUVeptbKJu5ktkLD/ABNlh65oX99dSwFbi5mlX+FnJA93Kg7qTtGnYfsvHSfULi21TEN9bgJnaZLhRwPqRQ0fppp2nxSR312bmXBO2AFgPecD51kpl/GOOXfTu1XdkqvCieokWtPA026+0u3JJtNPkYctsjBcfDd+VR8v2k6jJwt7W1jA8QzH61TUj6wf3qNt6oY3fCs3mmzRYYImb3p90laNgl6kG8gfhRKCBnuOMioO0nluLlmmkZ2ILFmOScnJpK7ZWwv8bg0vp8W1ifAZoZNuPJaST4JOBN8cxKbiAFzu5E8eXfyoN2dMUcvL/Fj8qChVsSd0BdnY4bO4AD6Hu9K5cDbp0anGdq+y27jubv8A1zrs6cvyHB1H+Mm+iT5sYl8FFWlD2BVP6JP+yR/3atcLdmmUkLEzslJ5ozmkyaCgrFFNGpFTRwalEsLMcAnypCIlSWHM0a4POiA9kd1W+EV7QW661r+Nkx2UAO7303uI98zAhesUjgO4Uw1bVbKO6aGSVknTaDtjOBwzzpWK6WN3ZpF3cQfFhXlNbBvNJsbw/RDXWJnhSOeMLGU5n1oUZwpJjuEMkTDrCxXlQoItUEZ5HF1mB7GO/wAadxyo6KOtiTGOLsRnA9KjxNhifGn+mW/3yVvZ4Dv504lFV8gYTcR0txEjjN5bgY5ASHP/AG12cG6sriZLqNhEm5sI3Hy44qSsOjBkPXzbmXltPfRulcNhp+mzW+nwrmV1TrhnLAcSfjj41y93FvUU2zVZJPyVC3l4N2ccOdT+k6XLLE0lzKwgIBLqO0c8udQMKYq9dH2RtE5bsKeHjjJrTJUVZquUyPa3sYRtzeSY7+uRf8hqQ03Tra8UhbScjHNpzx+CipiJNLu5Ns0J2sFYbGwVFTa2wtoFGmxkQj+I5xmsZavE4XBcnOu5/wBM96Y2Frollay2dqEuZZCMySM2Fwc4BPiRSduvUwKzt2io354jPfU10q0O81meKWCRf2fPYYFd2SM8fcKgZ7G+O5FjBK8wsg4VePIpxV+TWDS8i1zqxNrBbxo7xrFgBlXK5bJxnPf35z9KUurj7xbLL1Yj34fYMDbl3OBj9Ypimnah32rMPFSH+hp5eqUtkjcFGVIxtYEYxnxppoF82/o4uoyvGl9kj0Sf8FPf9TVwgbhVJ6Jt+Env+pq4wNwplIVrgcPypEmjlqQLcTQUXYopo26kFauyP2alEs5K2Tikg+2JfWuS9oCkZ2wAKqfCLhyyl6wes17UO7txr/8AWtSGoyPbbyqqqccA8wc86Q1TTUXU7qVrnBmfONmMYAHPPlS5gM8bxyy9ZKqk7POvN6icZTY5T+CQrYahPqJ+7nGMAYPlQqV06xmsLJDciJSxz54oVwvl8BxjwZNyINPrC6aO6UsCVBGCn7vnRNsTdley3evjRbV5I7qN4jh1PMDIp86a5MTQoL5iqESJKjgAMjc88yKgOlnC6Fsr5WIFiO4Fj/oPjUt0bu1udOu2udOjklc8J0YKUYd5WoK9DXFxNM3sl8D3cPoK4Y4lF0aY42yIXsirZ0VmH3XqzyEuD7xVWi/9OG72Yn3fo1OdHJMSyp/db54/lWkuUdMCdi1Dc0+9RmKLb1jcOyKfaNqzSQfdI5VDNjczeHLhVO1AMl7MrByhbshfA8R9aPbTXO3sA5j4HhyxyzXN2F6OZzakaHPdzW0CW99GZmfJAHBmJ7qqdlDcR3t09ypRjwXceVT2m22t6/DFK0YaIHsOSECenGndx0D1SWUK11ZLGWzg3Az9KOOOuEFLkjoFib97ec9nC86gOkUm6/uvJkHrwFX6x6LXdsCJ7/TlKjAxPk/Ss71rDXV4T7QuDnA9O+mnToyUpci/W+Ehbou34ae/61cLZ+FUfo0eC+rfWrfbHhTdrgXXyyR3Uizdo11G4Uix7RoKLsOGokklFzRGGeFWkRsUQ5GfCm87ZYDzpwT1cfoKZIBLdgnGPOscng0x+URWpwtJcS9ZMFj6w43+Jp2lva6cVVW61mAZioyT5Vb7jpTZW7lDa6NEy8SMZP0osv2hQoQsV5aRtj9yEnI+FebljUpPkeRhSKssGtaletcwWtyYyBtQxNjFCpubp0buLcL64chuAjjCZ+PdQq9sFwFRVW0fodpzgSx6nfZP70qoPftxSY1Xol1wisOjdvuAO1ppnYcPh9agbHRdRjsZ55bG7jw6r24GBPyp/wBH9MlMMjXGmXrznO0CBhn34rslaAtX4LJHrGlW+nztFodgG2HaU3jtY4c2NUaaUx2rkZJxgE8z+udTutabNp+nxy3Fv1UkzABWGCBzqt3bZRF/xVgnybrwI2sgIMR/cGV/XwqR0mXqbseakfn+VREJ/b8FeG3H508jkMcm9fHFG0RMn7m/0Mnqb/Ur63uMdpUtFmjHgQd4OcUaH+jRZDH0nMZ3f8bTpRn4EiqZfBnnL0IYWcVptSXJlJXKzWLKTSp4njh6S6QwxhA7SIV9QV/WKVisIsnbr+gSv3AXoXHxArMNMRoJyZOW3hUtDdJv48qDtRLV+zSrHQ5ljQrd2M7g5Jju4znw7xVB1u3ltbq+huFKus7YBPn3cfKgksMnBW4nlwNPelq7dSukT2Y3Ke5eA+lMunQS3ULeoutpH9HPZX+8frVutuQqndHj+Gnq31q3254L6Ux9Cx/sx8nMUm/tGjJRJBQlha4POugUm5qfRAtw+7CryoIuzc5baFUnPhRo13caFwVht5XdC67CSoONwxyrDUfpRth/YqF9bPbEiVhMW7W5OflSUHVyQ3TTx4GMArzp7aaxpUlwEl0252s3ELNyHwqW1O40eFFRYLg7lyIxtGD60g2SQ5si+j0/Voyw2wlQHtSOvP0oVN6Re6KNGBmtJkWOUhcOMj5UKB4ZMNDLVelOtmJbO3vZurKK2C2e7J40jb6xrt5qH3fT7q8llkRUEaEuc9+PCrr0W6Exa1qU2r6htewzthhTh1mOHuHOrHrGv6D0TgMFpbwoUAHVW6gN5V1pcWDZk/TmDU7TVYrLVbpJphGJNi8og3DBPeeyD8KqToWuGxzyAKnOkmrSarrNzqUw9sgjjnAAx+VNNKslnuFWUkKO05HhXNOVM6FxEZwaLcdeo3wkyMNq5OSfAcKQbsnDBgVOMcsEGtR0TohFqlsupTO0FjAC0ZiJDykd48KzfVYepv7hcnbvPM5JHPnWqTqwFKxgY8uW8acQxcKc2kLM0IiIBfgCadieG1mPXXG/b7SMMUatgykosYbKUSOloJjfysLeLBzwQAkD41JXMUP3VjbnE8XFw6MMjyBquS1NCGnL1VzDIU37ZFOz+LB5U86S70up+s4v1rKT48SM0npc6w3FnKyjKyqxxx5Hwomryiftj2Xd8Z8s0y6fL4yFXUflKAj0eHYT1b61bID2Vqq9Hv6pPX8zVogNMWL3+zJBfa91FcV1D2RRX50BYWk250dhRcVLILRLTbWT1dhdMO5APiRT2P2BTLpEf/KJvMqPg1cud/FnRgXyM4tk624Ujdnv+NTurTfscBb2zHgLtz76ZRBWlJVePfSl03XSFjufAz6UqbGyFbKYR2Txt2iSMeAPfQpvH+H7S8F5UKhZrWlvqOjWCWFiy3ECgkb2IIHw5VTuknR7VJWl1W6uImIBklBBGB4DhWp71wfZqp/aPexQ9HGhA7dxKEHoO0foPjSXFqs05KNmqjyZQ6b5FUcmOTVm0Po3dajaPcQOkSklV3czgD+fyqBgj4lyvsL+vlj41s3R6wbT9GsrZkbKxhpP7zcT8zittRmcHaNZKojqznWHTI7GaNljSIR4jHdyrHenNi1lrEm9QonxJGF5bMkD34GK2zGASF7PfWdfataKYrG57wzxH34I+jfGph1eSc6l4M4xKLp4LwKQ20qcZ8KkbjoJ0imJkd7aRm456wj07qYaaOzLH7/y/Ktv0T9q0Gxnk25aBM+Zxxrq1WWeNJwBlFSMz0PolrGlwzN1CSTt3LJz+VHuNE1/7pIqWPWSOo3MwHZweQNakLXPFeQo4i2Dbt864f8AMze6Io8GOaf0a15Z3aa0ZYiR4Z86S1aIjcVXaqMQw8+P141st0pSynlijYyJGzKD3kDhWU6/EzrfHK7I3bafEKQo9eBFO+kZ55N24Xa5VtIvo+Pwl9fzNWaAVXOj6/gpVii5U+FntjtDxFHekl9selKE0JYQmuZ4iumup3VGRCyefKm+sXkVrbj7w34chClducjiT9BS4PGpbRLWC5t5zdQJKu5VQMuccPOlvUMix4JM7NMm5lNt4bMm5vUiTGeAUABRj/Wl7a9szF1LW0Ztzt3L491XpdKsCrotnCI2BBAAA201OiaaqyRixi7fPaua8vLUjXayth9KWMi1IZwQqBjja2MbjmuVO/0b0r2ltFDN38eFCiWrXtlbWT0YAQlt3EVnv2m3W+/s7NW7MMZc+rH/AE+dX+WM52v68WrIulNybzXrplOAJBEh8l7P5ZrPSq52bxVsN0dtGvtSsrf9yaUM/wDdHH6ZrXBK+SG48eBz8qpPQWzeW+mniXIij6tR5k/yHzq8hig2vgsO7woNRNylwFkfJxJmIA2Zxnvqt/aLb9d0blkA7UMqSADmOO36NViEnaOIlXzpjrEAu9Ivrc85YGVefPB2/MVlintmjMxm0P7Q2e8EfA1rvQOfrujsCHd+C7xn4lv8wrIYB+MjeeD760j7N5t1tew79uyRX/6hj/LTjVc4bLZeXHL2vdypVH3Dbvpphu7cF7yaMZMbQu0A99KO5REIdI7m7s9Nke1Vmnfsqf4PE+tZTqaT7ZbYAZVAu1R/a/2+ArZY2wp5DzU86qmqdHWlnlu5pUAnkdQM93FlyfRfnT/pWsxwTi1V/wBi/V4pTaaM50o9RbhZDtYDj7hn86mkvIAo/FXvHtDwB/MfEU21mGO4vLtkQBGlcqByAKkfmBUZc7djnkQrkDxG5cf/AIr0UZ7uRW4bXyWMXkAf+tXv/e9f5H4Gj/eo2GVkXHr+vCoOdAfveVO9RgbPHDfmzH4V2+jVIJ+rxuZpFXPHkuT9T7qKvoDz7Jr73EoyXXA/X5V379AjY6xeePa88fWoC6UjKr/Vklj6bXH8qP1Skb/7QPwlomuCvBMnUoWx1bZ3Yx8Mj5fWrV0HlN9YXA29qObh6EY/I1QIU5Lt4hQPfhRV2+zRZbRtRim4zdgMvmGYH6/KlXVIRlp5Jnfo/wCQtos8nDK2fKuG0CIcq2O+pJJW/hX60GUHtNjj/DwrzHai+RxRGLabx7LbfKhUoqL+mIrlD2IkKvfz/c7W4n/5MZf2iOQz+vWsgTdJdqX4nO4+f641pnT28az0CWBldZJ3VADyxzPyGKzmzhaS4Cp7TssY9c1pp47cbZrjVs0joZbPBo0ciplp2MjcM8OQ4+g+dTRGNqt2jxON3f8ArjRLR4reCOBSQsKdWhjyOXDlS0rxmFR1UhIBZH2541zvmzOTt2cFs69lJVZRxUcTXDC7y5kckEcWXupeNhCnZULhclm4cc/70SS8RWRSFBwBndxOccvGhpJplGHarbGzv7q2bI6mdlAbhjDcPlVs+z6fq9Xmi3jZJASM+KkY+pqN+0C36rpLeSbdvXBX2+PDB+YNF6GSmPX9PPHMmY+HfuUj6mm0vlp2F6NbC+0vWAscFhyroSLHZ599GEDooIxvPi3HArscbBQCo6vieHj3UmaryULRwrkDduwPZ3Z51D9K7gWemrk5LCQL67GX86lCV3hmALAYxnv4Yqm9Oe29qiucrA7Mq9xJHd57T8K7NDtlnSZnmtQdFamljlcyMOBUjHmf0RSdpFC6zR3Q2SoqLw4f8UA+/BNNY4biZioRizDGOeSTnl8RTptNu9zM27dAcs5BzwO3PnxOPdXsN+Oq3CRxm3dBbeOGYu0q/hyFie0ASoVicfAij2KWk8x67DFsbAvA4Jwc+i54edJxWM121ylujM0KNOAF4kY4D44HvptZ2V2twidS52NxyO8EHj4DiPj50bywutwChL1Ech7dI5FYLuaIqM8SuCMn54pIzDdsReOQPU7ice/hS9vo15eWgmgjcgukZ7ON2WA4eXI8aV/opqx3FrfbsQySMxGNuD3+PDIoXq8C4cguxkfoYRXQbLMwA3jg3cCP9vhVv6Bav9416+MqE9ekhyOHHrWY/I/KqFJe2BA2yNI5cFQviB3+/jWifZ1YwNYrqa7lmy8ToD2QefD4il2v1OLtP74O7T4MkWmX4M7lcJ2ccO0MV0tKpxnbTUySOwwH3gcCDxaiq8xfDuD5tzPmPp7q87vGQ6BkBOeI8eVCmwuWV8FuXvoVXcRDNvtCuFNxbwIcdWrSO3exPD5AfA1F9Cbcy65bOUJWLMhxz8j8TQoVv/qRrHwzTY7pmmLlRGAq7sdrJxzznzoPMwRUiV2wxwFGO4Y5enOhQrmT4MRB3DyZQjYR2QeHhw499cEqIS3XZQsFU8Oec/oeA8qFCsmiFH+0WLdcWdxjJYOhY8jg5Hd/aNVXS5Wtrm2m/wCTKG/6TmhQpppXeAs3BXL7clgGXJPu/wBaPv4xhi2QO0vEZPw+XhQoUrlwRBldX3kZPAe2vA99Zd0uuGuNZvXUkRoerG3+znPzJ+NChW+jXNhx8lg+zywZbKS8d+MjFEB47Qv+p/7at7QuyDG0cOOCOB7hkf712hQSbcmDLyNYbbqy4RY+uBw7Rrg4HjjiOGKcodmMJkZby4+PAfrhQoVIydAhQGYnZgLyABx4E5+I40SZZE2gpviC8Sxz7j+u6u0Kr0izz1qlp/4bqtxa4IWCdlGe9c8Me7jWn/Zfdube/tQcYZZQfIgqfotcoU1zc4LIX5W7L/iLy57fariyI34jIrE8Mjj8qFClJAdhihK/u9xyPl+uNChQqLwQ/9k="
+        },
+        {
+            "name": "Tecnología y Comunicación",
+            "tag": "Innova",
+            "address": "AV. EJERCITO NO. 903 APT. 301",
+            "phone": "(+51) 54 60 30 00",
+            "email": "telecomunicacion23vision@gmail.com",
+            "imageurl": "https://media.licdn.com/dms/image/v2/C4D0BAQHTtRO-qFGiag/company-logo_200_200/company-logo_200_200/0/1631312013031?e=2147483647&v=beta&t=c6E46IULGb4U_aoayQYYwb8Czq8_Uc2NFB5-TBQ0OZc"
+        },
+        {
+            "name": "Ferreyros CAT",
+            "tag": "Forces and Union",
+            "address": "Av. SIMON BOLIVAR No 914",
+            "phone": "(51-1) 626-5600",
+            "email": "sebastian.elias@ferreycorp.com.pe",
+            "imageurl": "https://static.ferreyros.com.pe/fcsaprdferreyros01/2022/10/MercoEmpresas2022-web.jpg"
+        },
+
+        {
+            "name": "INKABOR S.A.C",
+            "tag": "Nature and more",
+            "address": "AV. ITALIA 101",
+            "phone": "(054) 444400",
+            "email": "inkabor.el@gmail.com",
+            "imageurl": "https://www.inkabor.com/wp-content/uploads/2024/10/agro1-e1729697911141.jpg"
+        },
+        {
+            "name": "Laboratorios Portugal S R L",
+            "tag": "A good product",
+            "address": "Laboratorios Portugal S R L",
+            "phone": "+51 (54) 31 60 31",
+            "email": "labPortugal@gmail.com",
+            "imageurl": "https://www.laboratoriosportugal.com/wp-content/uploads/elementor/thumbs/foto-8-pufh3facqpg2jdp0ggz41rttnia8ifbmra7pbj718a.jpg"
+        },
+        {
+            "name": "Transaltisa S.A.",
+            "tag": "Arequipa Company",
+            "address": "Av. López de Romaña S/N",
+            "phone": "(054) 606868",
+            "email": "transaltisaUnion@gmail.com",
+            "imageurl": "https://www.transaltisa.com.pe/transaltisa_page/wp-content/uploads/2024/07/s_home_1-650x650.jpg"
+        },
+        {
+            "name": "Cementos YURA",
+            "tag": "Arequipa Sociable",
+            "address": "Carr. Yura Km 26, Yura 04000",
+            "phone": "(01) 7099286",
+            "email": "cementosyura@gmail.com",
+            "imageurl": "https://www.yura.com.pe/wp-content/uploads/historia-default.jpg"
+        }
+
+    ]
+}
