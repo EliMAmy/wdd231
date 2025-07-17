@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #e1d1eb;
+    --secondary-color: #bbbbbb;
+    --accent1-color: #bfbadb;
+    --accent2-color: #01030f;
+    --heading-font: "Merryweather Sans", sans-serif;
+    --body-font: "Lato", sans-serif;
+}
+
+* {
+    font-family: var(--heading-font);
+    box-sizing: border-box;
+    color: var(--accent2-color);
+}
+/**HEADER***/
+header{
+    display: grid;
+    grid-template-columns: 60px 1fr 80px; 
+    padding: 5px 0 5px 10px;
+    column-gap: 10px;
+    align-items: center;
+    background-color: var(--accent1-color);
+}
+
+header span {
+    font-size: 1.5rem;
+    color: var(--accent2-color);
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 10px;
+}
+/**HAMNURGUER NAvIGATION***/
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--accent2-color);
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+    width: 450px;
+    background-color: var(--primary-color);
+}
+
+.navigation.show {
+    display: block;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    font-size: large;
+    padding: 0.8rem 10px;
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: var(--accent1-color);
+    text-decoration:underline;
+}
+/**MAIN***/
+main {
+    max-width: 520px;
+    padding: 15px;
+
+}
+
+.card{
+    background-color: #ece9e9;
+    margin: 15px;
+    border-radius: 25px;
+    height: 380px;
+}
+.title{
+    background-color: #ece9e9;
+    font-weight: 100;
+    margin:1px;
+    border-radius: 25px;
+}
+.tag{
+    text-align: center;
+    margin: 0;
+    font-size:small;
+    font-style: oblique;
+}
+.onecard{
+    display: grid;
+    justify-content: center;
+}
+.onecard p{
+    font-size: small;
+    text-align: center;
+}
+.onecard img{
+    width: 200px;
+    height: 180px;
+    align-items: center;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
+/**FOOTER***/
+footer {
+    background-color: var(--accent1-color);
+    padding: 1rem 10px;
+}
+
+footer p {
+    font-size: small;
+}
+.foot{
+    font-weight: 800;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social a:hover {
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
