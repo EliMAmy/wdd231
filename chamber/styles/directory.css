@@ -78,6 +78,10 @@ h2 {
     background-color: var(--accent1-color);
     text-decoration:underline;
 }
+.navigation .current{
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
 /**MAIN***/
 main {
     max-width: 520px;
