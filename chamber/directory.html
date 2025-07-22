@@ -23,7 +23,7 @@
         content="This page contain a list of local business and other organizations that belong to the chamber of commerce.">
     <meta property="og:title" content="Directory">
     <meta property="og:description"
-        content="The home page will contain a list of local business and other organizations that belong to the chamber of commerce.">
+        content="The page will contain a list of local business and other organizations that belong to the chamber of commerce.">
     <meta property="og:url" content="https://elimamy.github.io/wdd231/chamber/home.html">
     <meta property="og:image"
         content="https://elimamy.github.io/wdd231/chamber/images/arequipa.webp">
@@ -44,9 +44,14 @@
         </nav>
     </header>
     <main>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
         <h1>Local Business</h1>
-        <section>
-            <div id="cards"></div>
+        <section class="view">
+            <div id="cards" class="hide"></div>
+            <table id="table"></table>
         </section>
     </main>
     <footer>

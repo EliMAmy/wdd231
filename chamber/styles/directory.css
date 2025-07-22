@@ -89,7 +89,16 @@ main {
     padding: 15px;
 
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu button{
+    border-radius: 20px;
+    padding: 10px;
 
+}
 .card{
     background-color: #ece9e9;
     margin: 15px;
@@ -111,6 +120,7 @@ main {
 .onecard{
     display: grid;
     justify-content: center;
+    
 }
 .onecard p{
     font-size: small;
@@ -124,6 +134,23 @@ main {
     margin: auto;
     padding: 10px;
 }
+main section .hide{
+    display: none;
+}
+  table th,
+  table td {
+      padding: 8px;
+      text-align: left;
+      font-size: smaller;
+  }
+
+  table th {
+      background-color: #f2f2f2;
+  }
+
+  table th:hover {
+      background-color: var(--primary-color);
+  }
 /**FOOTER***/
 footer {
     background-color: var(--accent1-color);
