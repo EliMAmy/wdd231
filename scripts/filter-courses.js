@@ -86,7 +86,11 @@ function createCard(courses) {
     text.innerHTML = `<span class="label">The total credits for course listed above is ${value}</span>`;
     courses.forEach(course => {
         let card = document.createElement("section");
-        let nameCourse = document.createElement("p");
+        let nameCourse = document.createElement("button");
+        nameCourse.addEventListener("click", () => {
+            displayCourseDetails(course);
+        });
+
         if (course.completed)
         {
             card.setAttribute("class","color")
@@ -103,8 +107,24 @@ function createCard(courses) {
 
 
 }
+function displayCourseDetails(course) {
+    const courseDetails = document.querySelector("#course-details");
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    courseDetails.showModal();
 
-
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
 const options = [
     {
         name:"All",

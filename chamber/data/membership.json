@@ -1,0 +1,21 @@
+{
+    "levels": [
+        {
+            "title": "Non Profit Membership Level",
+            "benefits": "Access to general networking events.Invitations to select training workshops.Listing in the Chamber's member directory (Non-profit section).Opportunity to collaborate in community-focused initiatives.Discounted participation in expos and public events"
+        },
+        {
+            "title": "Bronce Membership Level",
+            "benefits":"Full business listing with logo and contact info. Access to business development training sessions. A 10% discount on paid events and expos. Opportunity to post job openings on Chamber platform. Social media mention once per year"
+            
+        },
+        {
+            "title": "Silver Membership Level",
+            "benefits":"Priority registration for Chamber events, 25% discount on workshops and expos, 1 feature in the Chamber’s monthly newsletter. Opportunity to host a Chamber networking event. Spotlight position in the Silver Members section of website homepage. One-on-one business strategy consultation (1 hour annually)"
+        },
+        {
+            "title": "Gold Membership Level",
+            "benefits":"Premium listing on Chamber homepage (Gold Spotlight), 50% discount on all Chamber-hosted events. Two newsletter features per year. Exclusive access to high-level networking breakfasts and roundtables. Priority sponsorship opportunities at Chamber events. Custom promotional campaign through Chamber channels (once per year). Direct support from Chamber leadership for advocacy or strategic"
+        }
+    ]
+}

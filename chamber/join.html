@@ -9,14 +9,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
     <script src="scripts/thelast-modified.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/levels.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
     <meta name="description"
-        content="The home page welcomes the visitor with key information and invitations to engage with the organization.">
+        content="This page contains information about the benefit of joining the chamber and a membership application form. ">
     <meta property="og:title" content="Join">
     <meta property="og:description"
-        content="">
+        content="This page contains information about the benefit of joining the chamber and a membership application form. There are three membership level options of non-profit, silver, and gold. The different levels have different perks including directory listings, publications, trainings, social media work, luncheons, sponsorships, advertising, etc.">
     <meta property="og:url" content="https://elimamy.github.io/wdd231/chamber/home.html">
     <meta property="og:image" content="https://elimamy.github.io/wdd231/chamber/images/arequipa.webp">
 </head>
@@ -34,5 +38,84 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>Membership Application Form</h2>
+            <form action="thankyou.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" autocomplete="given-name" title="Your first name." required>
+            
+                <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName" type="text" autocomplete="given-name" title="Your last name." required>
+            
+                <label for="organizationalTitle">Organizational title:</label>
+                <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="given-name"
+                    title="Your organizational title." required>
+            
+                <label for="email">Email Address:</label>
+                <input name="email" id="email" type="email" placeholder="yourname@example.com" autocomplete="off"
+                    title="Your email.">
+            
+                <label for="phoneNumber">Mobile Phone Number:</label>
+                <input name="phoneNumber" id="phoneNumber" type="tel" autocomplete="tel" title="Your phone number."
+                    placeholder="987-555-1234" required>
+            
+                <label for="organization">Organization's Name:</label>
+                <input name="organization" id="organization" type="text" autocomplete="organization"
+                    title="The business/organization's name." required>
+            
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel">
+                    <option value="np">NP Membership is for non profit organizations and there is no fee.</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            
+                <label for="description">Description</label>
+                <textarea title="description" name="description" id="description"></textarea>
+            
+                <input name="timestamp" id="timestamp" type="hidden">
+            
+                <input type="submit"  value="Register now">
+            </form>
+        </section>
+
+        <dialog id="more"></dialog>
+        <section>
+            <h2>Membership Levels</h2>
+            <div id="cards">
+            
+            </div>
+        </section>
+    
+    </main>
+    <footer>
+        <div class="new">
+            <div class="some">
+                <p class="foot">Force Chamber of Commerce</p>
+                <p>10 Rue De la Mar</p>
+                <p>La Union, Arequipa 1000</p>
+                <p>info@forcesComerce.org</p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/EliMAmy" target="_blank"><img src="images/github.svg" alt="github" width="48"
+                        height="48"></a>
+                <a href="https://www.linkedin.com/in/rocio-maryorie-apaza" target="_blank"><img src="images/linkedin.svg"
+                        alt="linkedin" width="48" height="48"></a>
+                <a href="https://www.facebook.com/rocio.apaza.50" target="_blank"><img src="images/fb.svg" alt="facebook"
+                        width="48" height="48"></a>
+                <a href="https://teams.microsoft.com" target="_blank"><img src="images/microsoft-teams.svg"
+                        alt="microsoft-teams" width="48" height="48"></a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>&#x1F338;<span id="currentyear"></span> &#x1F338; Rocio Apaza Paricahua ,Peru &#x1F338;</p>
+                <p>@ 20xx Timbuktu Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
