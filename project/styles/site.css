@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #9DE0E2;
+    --secondary-color: #DBF4F8;
+    --accent1-color: #FBFFF3;
+    --accent2-color: #01030f;
+    --heading-font: "Comic Relief";
+    --body-font: "Roboto";
+}
+
+
+/**HEADER***/
+header {
+    display: grid;
+    grid-template-columns:1fr;
+    padding: 5px 0 5px 10px;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-weight: 500;
+    text-align: center;
+    font-family: var(--heading-font);
+
+}
+
+/**MAIN***/
+main {
+    width: auto;
+    padding: 20px 300px 20px 100px;
+}
+main p{
+    font-family: var(--body-font);
+}
+main a{
+    color: #1d777a;
+    font-family: var(--heading-font);
+
+}
+
+
+/**FOOTER***/
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 10px;
+}
+
+footer p {
+    font-size: medium;
+    font-family: var(--body-font);
+    text-align: center;
+}
+
+
+   
