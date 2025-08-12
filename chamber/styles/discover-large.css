@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media (min-width: 1025px)  {
 
     header,
     main,
@@ -7,7 +7,8 @@
         max-width: 1300px;
         margin: 0 auto;
     }
-/**header**/
+
+    /**header**/
     header {
         display: grid;
         grid-template-columns: 40px 750px 350px;
@@ -32,72 +33,47 @@
     .navigation li {
         padding: 2px;
     }
+
     .navigation a:hover {
-    background-color: var(--primary-color);
-    text-decoration:underline;
-    border-radius: 25px;
-}
+        background-color: var(--primary-color);
+        text-decoration: underline;
+        border-radius: 25px;
+    }
 
     /**MAIN**/
-    main {
-        max-width: 1100px;
-        padding: 5px;
-    }
-
-    .view div:first-child {
+    #cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
     }
 
-    .card {
-        margin: 10px;
-        width: 340px;
-        gap: 10px;
-        height: 400px;
+    .card img:hover {
+        box-shadow: 0 0 30px #333;
     }
-
-    .onecard p {
-        font-size: small;
+    .card .sub{
+        display: flex;
+        flex-direction: row;
     }
-
-    .onecard img {
-        width: 250px;
-        height: 200px;
-        padding: 10px;
-        border-radius: 30px;
-    }
-
-    main .view .hide {
-        display: none;
-    }
-
-    table {
+    .card address{
         padding: 20px;
     }
-
-    table th,
-    table td {
-        padding: 8px;
-        text-align: left;
-        font-size: medium;
+    .card p{
+        padding-top: 40px;
     }
-
-    table th {
-        background-color: #f2f2f2;
-    }
-
-    table th:hover {
-        background-color: var(--primary-color);
+    .card img{
+        width: 350px;
     }
     /**FOOTER***/
     footer p {
         font-size: medium;
     }
+
     .social {
         column-gap: 20px;
         padding-top: 50px;
         padding-left: 30px;
     }
+
     .social img {
         width: 50px;
         height: 50px;
@@ -107,11 +83,13 @@
         background-color: var(--primary-color);
         border-radius: 250px;
     }
-    .new{
-        display:grid;
+
+    .new {
+        display: grid;
         grid-template-columns: 25% 40% 35%;
     }
-    .some{
+
+    .some {
         padding-left: 20px;
     }
 

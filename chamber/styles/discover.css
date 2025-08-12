@@ -12,10 +12,11 @@
     box-sizing: border-box;
     color: var(--accent2-color);
 }
+
 /**HEADER***/
-header{
+header {
     display: grid;
-    grid-template-columns: 60px 1fr 80px; 
+    grid-template-columns: 60px 1fr 80px;
     padding: 5px 0 5px 10px;
     column-gap: 10px;
     align-items: center;
@@ -23,10 +24,17 @@ header{
 }
 
 header span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--accent2-color);
 }
+h1{
+    font-weight: 500;
+    text-align: center;
 
+}
+img{
+    width: 50px;
+}
 /**HAMNURGUER NAvIGATION***/
 .hamburger {
     background: none;
@@ -71,90 +79,82 @@ header span {
 
 .navigation a:hover {
     background-color: var(--accent1-color);
-    text-decoration:underline;
+    text-decoration: underline;
 }
-.navigation .current{
+
+.navigation .current {
     background-color: var(--primary-color);
     border-radius: 25px;
 }
 
 /**MAIN***/
 main {
-    max-width: 520px;
-    padding: 15px;
-
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.menu button {
-    border-radius: 20px;
+    width: auto;
     padding: 10px;
 
 }
 
 .card {
-    background-color: #ece9e9;
+    background-color: var(--primary-color);
     margin: 15px;
-    border-radius: 25px;
-    height: 380px;
+    border-radius: 0.5rem;
+    height: auto;
 }
 
 .title {
-    background-color: #ece9e9;
     font-weight: 100;
     margin: 1px;
-    border-radius: 25px;
+    text-align: start;
+    padding: 15px;
 }
 
-.tag {
-    text-align: center;
-    margin: 0;
-    font-size: small;
-    font-style: oblique;
+.card p {
+    font-size: medium;
+    text-align:justify;
+    padding: 20px;
 }
 
-.onecard {
-    display: grid;
-    justify-content: center;
-
-}
-
-.onecard p {
-    font-size: small;
-    text-align: center;
-}
-
-.onecard img {
-    width: 200px;
-    height: 180px;
+.card img {
     align-items: center;
-    border-radius: 25px;
-    margin: auto;
-    padding: 10px;
+    width: 100%;
+    height: 260px;
 }
-
-main section .hide {
-    display: none;
+.card address{
+    text-align: center;
+    font-size: small;
+    font-family: cursive;
 }
+.mybutton{
+    background-color:var(--secondary-color);
+    border: none;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    width:100%;
 
-table th,
-table td {
-    padding: 8px;
-    text-align: left;
-    font-size: smaller;
 }
+@keyframes colorChange {
+    0% {
+        background-color: var(--accent1-color);
+    }
 
-table th {
-    background-color: #f2f2f2;
+    50% {
+        background-color: var(--primary-color);
+    }
+
+    100% {
+        background-color: var(--accent1-color);
+    }
 }
-
-table th:hover {
+#more{
     background-color: var(--primary-color);
+    border-color:var(--primary-color);
+    animation: colorChange 5s infinite;
+}
+#more h2{
+    font-family: cursive;
+    font-weight:300 ;
 }
 /**FOOTER***/
 footer {
@@ -165,9 +165,11 @@ footer {
 footer p {
     font-size: small;
 }
-.foot{
+
+.foot {
     font-weight: 800;
 }
+
 .social {
     display: flex;
     justify-content: center;

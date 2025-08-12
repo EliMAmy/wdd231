@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocio Apaza">
+    <title>WDD 231- Rocio Apaza & Discover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
+    <script src="scripts/thelast-modified.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/places.js" type="module"></script>
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta name="description"
+        content=" This page provide factual and representative information about the area including demographics and features that appeals to prospective chamber members and visitors.">
+    <meta property="og:title" content="Discover">
+    <meta property="og:description"
+        content=" The discover page locale history, current demographics, and current events. An image montage will orient visitors to the area and interesting area sites, etc">
+    <meta property="og:url" content="https://elimamy.github.io/wdd231/chamber/home.html">
+    <meta property="og:image" content="https://elimamy.github.io/wdd231/chamber/images/arequipa.webp">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo">
+        <span>Force Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="#">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="visitMessage"></h1>
+        <dialog id="more"></dialog>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <div class="new">
+            <div class="some">
+                <p class="foot">Force Chamber of Commerce</p>
+                <p>10 Rue De la Mar</p>
+                <p>La Union, Arequipa 1000</p>
+                <p>info@forcesComerce.org</p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/EliMAmy" target="_blank"><img src="images/github.svg" alt="github"
+                        width="48" height="48"></a>
+                <a href="https://www.linkedin.com/in/rocio-maryorie-apaza" target="_blank"><img
+                        src="images/linkedin.svg" alt="linkedin" width="48" height="48"></a>
+                <a href="https://www.facebook.com/rocio.apaza.50" target="_blank"><img src="images/fb.svg"
+                        alt="facebook" width="48" height="48"></a>
+                <a href="https://teams.microsoft.com" target="_blank"><img src="images/microsoft-teams.svg"
+                        alt="microsoft-teams" width="48" height="48"></a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>&#x1F338;<span id="currentyear"></span> &#x1F338; Rocio Apaza Paricahua ,Peru &#x1F338;</p>
+                <p>@ 20xx Timbuktu Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
