@@ -1,0 +1,252 @@
+:root {
+    --primary-color: #9DE0E2;
+    --secondary-color: #398894;
+    --accent1-color: #d5dae0;
+    --accent2-color: #01030f;
+    --heading-font: "Comic Relief";
+    --body-font: "Roboto";
+}
+
+* {
+    font-family: var(--heading-font);
+    box-sizing: border-box;
+    color: var(--accent2-color);
+}
+h1 {
+    font-weight: 500;
+    font-size: x-large;
+    text-align: start;
+}
+h2{
+    text-align: center;
+}
+/**HEADER***/
+header {
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+    padding: 5px 0 5px 10px;
+    column-gap: 10px;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+header img{
+    width: 40px;
+    height: auto;
+}
+/**HAMNURGUER NAvIGATION***/
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--accent2-color);
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+    width: 460px;
+    background-color: var(--primary-color);
+}
+
+.navigation.show {
+    display: block;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    font-size: large;
+    padding: 0.8rem 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: var(--accent1-color);
+    text-decoration: underline;
+}
+
+.current {
+    opacity: 0.8;
+    color: var(--accent2-color);
+    text-decoration:underline;
+}
+
+/**MAIN***/
+main {
+    width: auto;
+}
+.hero {
+    display: grid;
+    grid-template-rows: auto 11rem;
+}
+.cta {
+    background-color: var(--accent1-color);
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: -0.3rem;
+}
+
+.cta p {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.cta a {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4E4643;
+    padding: 0.7rem 5rem;
+    text-decoration: none;
+}
+
+.cta a:hover {
+    background-color: rgba(78, 70, 67, 0.2);
+    color: var(--accent2-color);
+    border-style: groove;
+    border-color: rgba(78, 70, 67, 0.4);
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero picture img {
+    width: 100%;
+}
+@keyframes colorChange {
+    0% {
+        background-color: var(--primary-color);
+    }
+
+    50% {
+        background-color: var(--accent1-color);
+    }
+
+    100% {
+        background-color: var(--secondary-color);
+    }
+}
+
+.weare{
+    padding: 30px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    animation: colorChange 5s infinite;
+}
+.weare h3{
+    color: var(--accent1-color);
+}
+.event {
+    margin: 20px 25px;
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+.event h2 {
+    margin: 0px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+.event #add {
+    padding: 20px;
+    text-align: initial;
+}
+
+.sub {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.sub figure {
+    width: 100px;
+    justify-self: end;
+    margin: 0px;
+}
+
+.sub .some {
+    font-weight: 800;
+    text-align: center;
+}
+
+.sub .style {
+    font-family: cursive;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.name-day {
+    font-weight: 700;
+}
+.rentals{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+    
+}
+.rentals h3{
+    padding: 15px;
+}
+.rentals picture img{
+    width: 100%;
+}
+.types{
+    background-color: var(--accent1-color);
+}
+
+/*--------------
+/**FOOTER***/
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 10px;
+}
+
+footer p {
+    font-size: small;
+}
+
+.foot {
+    font-weight: 800;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social a:hover {
+    background-color: var(--accent2-color);
+}

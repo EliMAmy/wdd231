@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocio Apaza">
+    <title> Contact & Interconnect Arequipa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact-large.css">
+    <script src="scripts/thelast-modified.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description"
+        content="This page provide an application form and reservation form.">
+    <meta property="og:title" content="Home">
+    <meta property="og:description"
+        content="This page contains some information and services neccesary to get a reservation visit,and also a form.">
+    <meta property="og:url" content="https://elimamy.github.io/wdd231/finalproject/home.html">
+    <meta property="og:image" content="https://elimamy.github.io/wdd231/finalproject/images/arequipa.webp">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo">
+        <h1>Museum & Interconnect Arequipa</h1>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="museums.html">Museums</a></li>
+                <li class="current"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact & Reservation Form</h2>
+            <form action="thankyou.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" autocomplete="given-name" title="Your first name." required>
+        
+                <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName" type="text" autocomplete="given-name" title="Your last name." required>
+        
+                <label for="state">Home State / Country:</label>
+                <input id="state" type="text" name="state"
+                    title="Your home state." required>
+        
+                <label for="email">Email Address:</label>
+                <input name="email" id="email" type="email" placeholder="yourname@example.com" autocomplete="off"
+                    title="Your email.">
+        
+                <label for="phoneNumber">Mobile Phone Number:</label>
+                <input name="phoneNumber" id="phoneNumber" type="tel" autocomplete="tel" title="Your phone number."
+                    placeholder="987-555-1234" required>
+        
+                <label for="reservationTour">Type of reservation:</label>
+                <select id="reservationTour" name="reservationTour">
+                    <option value="classic">Classic Historical Tour.</option>
+                    <option value="specialist">In-Depth Specialist Tour</option>
+                    <option value="family">Family & Kids Tour</option>
+                    <option value="night">Nighttime Cultural Tour</option>
+                </select>
+                <label for="typeTour">Type of Tour:</label>
+                <select id="typeTour" name="typeTour">
+                    <option value="complete">Full Tour.</option>
+                    <option value="medium">Medium Tour</option>
+                    <option value="basic">Bassic Tour</option>
+                </select>
+                <label class="top">Reservation Date*
+                    <input type="date" name="reservation" required>
+                </label>
+                <label for="description">Aditional information</label>
+                <textarea title="description" name="description" id="description"></textarea>
+        
+        
+                <input type="submit" value="Register now">
+            </form>
+        </section>
+        
+        <dialog id="more"></dialog>
+        <section>
+            <h2>Our Types of Tours</h2>
+            <div id="cards">
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="new">
+            <div class="some">
+                <p class="foot">Museum & Interconnect Arequipa</p>
+                <p>10 Rue De la Mar</p>
+                <p>La Union, Arequipa 1000</p>
+                <p>info@InterconectArequipa.org</p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/EliMAmy" target="_blank"><img src="images/github.svg" alt="github"
+                        width="48" height="48"></a>
+                <a href="https://www.linkedin.com/in/rocio-maryorie-apaza" target="_blank"><img
+                        src="images/linkedin.svg" alt="linkedin" width="48" height="48"></a>
+                <a href="https://www.facebook.com/rocio.apaza.50" target="_blank"><img src="images/fb.svg"
+                        alt="facebook" width="48" height="48"></a>
+                <a href="https://teams.microsoft.com" target="_blank"><img src="images/microsoft-teams.svg"
+                        alt="microsoft-teams" width="48" height="48"></a>
+            </div>
+            <div>
+                <p>WDD231 Final Project</p>
+                <a href="Video Content Requirements">VIDEO CONTENT REQUIREMENTS</a>
+                <p>&#x1F338;<span id="currentyear"></span> &#x1F338; Rocio Apaza Paricahua ,Peru &#x1F338;</p>
+                <p>Museum & Interconnect Arequipa</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

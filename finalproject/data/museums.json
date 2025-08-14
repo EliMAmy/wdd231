@@ -1,0 +1,125 @@
+{
+    "museums":[
+        {
+            "name": "Andean Sanctuaries Museum",
+            "location": "Calle La Merced 110, Arequipa, Peru",
+            "description": "Archaeological museum housing the preserved Inca mummy “Juanita” and ritual artifacts from high-altitude sanctuaries.",
+            "rating": 4.5,
+            "image": "https://hakutours.com/wp-content/uploads/2023/02/momia-juanita-museo-4.jpg",
+            "business":"Monday to Saturday"
+        },
+        {
+            "name": "José María Morante Archaeological Museum",
+            "location": "Calle Álvarez Thomas 200, Arequipa, Peru",
+            "description": "Archaeological museum of the National University of San Agustín with over 11,000 exhibits from pre-Hispanic to colonial periods.",
+            "rating": 4.4,
+            "image": "https://www.unsa.edu.pe/wp-content/uploads/2024/05/IMG_2388-scaled.jpg",
+            "business": "Monday to Saturday"
+        },
+        {
+            "name": "Municipal Historical Museum (Guillermo Zegarra Meneses)",
+            "location": "Plaza San Francisco / Calle San Francisco 407, Arequipa, Peru",
+            "description": "History museum from pre-Hispanic to Republican times located in the San Francisco complex, with artifacts, portrait gallery, and pinacoteca.",
+            "rating": 4.3,
+            "image": "https://www.viajaraperu.com/wp-content/uploads/2025/04/Sala-de-Exhibicion-Historica-en-el-Museo-Zegarra-Meneses.jpg",
+            "business": "Monday to Saturday"
+        },
+        {
+            "name": "Santa Catalina Monastery Museum",
+            "location": "Calle Santa Catalina 301, Arequipa, Peru",
+            "description": "Partly active colonial monastery with cloisters open as museum; features architecture, art gallery with over 400 colonial paintings.",
+            "rating": 4.6,
+            "image": "https://www.evolutiontreksperu.com/wp-content/uploads/2023/02/Santa-Catalina-Monastery-Trip-1640x840-4.jpg",
+            "busines": "Monday to Friday"
+        },
+        {
+            "name": "La Recoleta Convent Museum",
+            "location": "Calle La Recoleta 117, Arequipa, Peru",
+            "description": "Convent museum founded 1648, with cloisters, galleries of archaeological, historical-artistic, ethnographic items, and a historic library.",
+            "rating": 4.0,
+            "image": "https://antipode-peru.com/Que-Voir/couvent-de-la-recoleta--v1-1200-800.jpeg",
+            "business": "Tuesday to Saturday"
+            
+        },
+        {
+            "name": "Santa Teresa Museum of Viceroyal Art",
+            "location": "Calle Melgar 303, Arequipa, Peru",
+            "description": "Museum of viceregal sacred art inside a Carmelite convent, with thematic salons, murals, sculptures, metalwork, and souvenir shop.",
+            "rating": 4.2,
+            "image": "https://www.aracari.com/wp-content/uploads/2017/11/Santa-Teresa-Monastery-7-1.jpg",
+            "business": "Monday to Friday"
+        },
+        {
+            "name": "Cathedral Museum",
+            "location": "Plaza de Armas (lateral portal of Calle Santa Catalina), Arequipa, Peru",
+            "description": "Museum housed within Arequipa Cathedral, displaying religious art, sculptures, Cusco School paintings, and a monumental organ.",
+            "rating": 4.4,
+            "image": "https://repositorio.turismocastillalamancha.com/patrimonio/181042/36/88b5/museo-catedralicio-sacristia.jpg",
+            "business": "Monday to Friday"
+        },
+        {
+            "name": "Central Reserve Bank Museum",
+            "location": "Calle La Merced 205, Arequipa, Peru",
+            "description": "Numismatics and colonial art museum featuring currency evolution and Cusco School paintings within the BCRP network.",
+            "rating": 4.0,
+            "image": "https://live.staticflickr.com/7465/27674152494_4fa8628e21_b.jpg",
+            "business": "Monday to Friday"
+        },
+        {
+            "name": "Museum of Contemporary Art (MAC)",
+            "location": "Avenida Los Cristales 146, Arequipa, Peru",
+            "description": "Contemporary art museum showcasing local and national artists with permanent and rotating exhibitions, workshops, photography.",
+            "rating": 4.1,
+            "image": "https://elbuho.pe/wp-content/uploads/2023/05/museo-dff.jpg",
+            "business": "Monday to Saturday"
+        },
+        {
+            "name": "Casa Museo Mario Vargas Llosa",
+            "location": "Avenida Parra 101, Arequipa, Peru",
+            "description": "Museum in the childhood home of Nobel laureate Mario Vargas Llosa, with holograms, 3D films, personal items and multimedia on his life and work.",
+            "rating": 4.2,
+            "image": "https://www.vivearequipa.com/wp-content/uploads/2022/06/foto-destacada-mario-vargas-llosa-8-799x564x169x0x462x564x1625968440.jpeg",
+            "business": "Tuesday to Friday"
+        },
+        {
+            "name": "San Francisco de Asís Convent Museum",
+            "location": "Calle Zela 103, Arequipa, Peru",
+            "description": "Colonial Franciscan convent and museum featuring cloisters, art collection, altarpieces, furniture, and underground catacombs and library.",
+            "rating": 4.0,
+            "image": "https://www.cusco-live.com/images/cusco-live/directorio/atractivos/museo/san-francisco-museo/museo-san-francisco-01.jpg",
+            "business": "Tuesday to Saturday"
+        },
+        {
+            "name": "Museo del Mundo Postal",
+            "location": "Arequipa, Peru",
+            "description": "Postal museum with a wide collection of stamps and postal history objects from around the world.",
+            "rating": 3.9,
+            "image": "https://4.bp.blogspot.com/-VXvqrEDg0O4/UIHhmP-Bf5I/AAAAAAAAPaY/caHWt_jjQBY/s640/museo+postal0.jpg",
+            "business": "Monday to Friday"
+        },
+        {
+            "name": "Museo de los Recuerdos",
+            "location": "Arequipa, Peru",
+            "description": "‘Museum of Memories’ showcasing everyday objects from Arequipa across decades—nostalgic and anecdotal exhibitions.",
+            "rating": 3.8,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Perou243.jpg/640px-Perou243.jpg",
+            "business": "Tuesday to Saturday"
+        },
+        {
+            "name": "Casa del Moral (Gallery)",
+            "location": "Arequipa, Peru",
+            "description": "Baroque 18th-century ancestral house used as an exhibition gallery with Cusco School paintings and a large library.",
+            "rating": 4.3,
+            "image": "https://www.vivearequipa.com/wp-content/uploads/2022/06/Pequena03_casa_del_moral_divulgacion.jpg",
+            "business": "Monday to Saturday"
+        },
+        {
+            "name": "Tristán del Pozo House (Art Gallery)",
+            "location": "San Francisco street, Arequipa, Peru",
+            "description": "18th-century house featuring Andean-Baroque architecture; now hosts art gallery with works by notable Peruvian artists.",
+            "rating": 4.2,
+            "image": "https://www.vivearequipa.com/wp-content/uploads/2022/06/foto-casa-tristan-min.jpeg",
+            "business": "Tuesday to Saturday"
+        }
+    ]
+}

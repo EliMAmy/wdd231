@@ -1,0 +1,63 @@
+@media (min-width: 1025px) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-weight: 300;
+    }
+
+    /**header**/
+    header {
+        grid-template-columns: 10% 50% 40%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: x-large;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        background-color: var(--primary-color);
+        width: auto;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    .navigation li {
+        padding: 2px;
+    }
+
+    .navigation a:hover {
+        background-color: var(--primary-color);
+        text-decoration: underline;
+        border-radius: 25px;
+    }
+
+    /**MAIN**/
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 15px;
+    }
+
+
+
+}

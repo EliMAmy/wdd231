@@ -1,0 +1,102 @@
+@media (min-width: 641px) and (max-width: 1024px){
+
+
+    /**header**/
+    header {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: x-large;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        background-color: var(--primary-color);
+        width: auto;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    .navigation li {
+        padding: 2px;
+    }
+
+    .navigation a:hover {
+        background-color: var(--primary-color);
+        text-decoration: underline;
+        border-radius: 25px;
+    }
+    /**MAIN**/
+    main{
+        padding: 10px;
+    }
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card img:hover {
+        box-shadow: 0 0 30px #333;
+    }
+
+    .card .sub {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card address {
+        padding: 20px;
+    }
+
+    .card p {
+        padding-top: 40px;
+    }
+
+    .card img {
+        width: 350px;
+    }
+    /**FOOTER***/
+    footer p {
+        font-size: small;
+    }
+
+    .social {
+        column-gap: 20px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social a:hover {
+        background-color: var(--primary-color);
+        border-radius: 250px;
+    }
+
+    .new {
+        display: grid;
+        grid-template-columns: 25% 40% 35%;
+    }
+
+    .some {
+        padding-left: 20px;
+    }
+}

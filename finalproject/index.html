@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocio Apaza">
+    <title> Home & Interconnect Arequipa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/thelast-modified.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description"
+        content="The home page welcomes the visitor with key information and invitations to engage with the organization.">
+    <meta property="og:title" content="Home">
+    <meta property="og:description"
+        content="The home page will contain some attention grabbing information along with community information, weather, calls to action, and spotlights.">
+    <meta property="og:url" content="https://elimamy.github.io/wdd231/finalproject/home.html">
+    <meta property="og:image" content="https://elimamy.github.io/wdd231/finalproject/images/arequipa.webp">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo">
+        <h1>Museum & Interconnect Arequipa</h1>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="museums.html">Museums</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <img class="arequipa" src="images/arequipacity.webp" alt="Arequipa,City">
+            </picture>
+            <div class="cta">
+                <h2>Looking For The Best Museum Visit Experience?</h2>
+                <p>Get the chance to book a visit!</p>
+                <a href="contact.html">Make a Reservation</a>
+            </div>
+        </div>
+        <div class="weare">
+            <h2>Who we are?</h2>
+            <p>Museum & Interconnect Arequipa is a company dedicated to offering program visits to the multiple Museums in Arequipa
+            City.</p>
+        </div>
+        <section class="info">
+            <div class="event">
+                <h2>Arequipa</h2>
+                <p id="add">Arequipa, known as the "White City" for its stunning volcanic sillar architecture, boasts a rich cultural scene with
+                museums that bring its history, art, and traditions to life. The Museo Santuarios Andinos, The Museo de Arte Virreinal
+                de Santa Teresa, the Museo del Monasterio de Santa Catalina, The Museo de Arte Contemporáneo Arequipa the Museo
+                Arqueológico UNSA are some of the most important museums that create a vivid journey through Arequipa’s past and
+                present, making the city a cultural hub in southern Peru.</p>
+            </div>
+            <div class="event">
+                <h2>Current Weather</h2>
+                <div class="sub">
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                    </figure>
+                    <div>
+                        <p class="some"><span id="current-temp"></span></p>
+                        <p class="style" id="figcaption"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="event">
+                <h2>Weather Forecast</h2>
+                <div id="forecast">
+
+                </div>
+            </div>
+        </section>
+        <section class="visitinfo">
+            <h2 class="visit">Type of Visits</h2>
+            <div class="rentals">
+                <picture>
+                    <img src="images/images-visit.webp" alt="Image of museum">
+                </picture>
+                <div class="types">
+                    <h3>Classic Historical Tour</h3>
+                    <ul>
+                        <li>A guided visit covering the museum’s most important collections</li>
+                        <li>offering historical context and key facts</li>
+                        <li>perfect for first-time visitors.</li>
+                    </ul>
+                    <h3>In-Depth Specialist Tour</h3>
+                    <ul>
+                        <li>Led by an expert (historian, archaeologist, or art curator)</li>
+                        <li>focusing on specific artifacts, periods, or artistic styles for visitors seeking a deeper understanding.</li>
+                    </ul>
+            
+            
+                    <h3>Family & Kids Tour</h3>
+                    <ul>
+                        <li>Interactive tour adapted for children</li>
+                        <li>Using games, storytelling, and hands-on activities to make learning fun for the whole family.</li>
+                    </ul>
+                    <h3>Nighttime Cultural Tour</h3>
+                    <ul>
+                        <li>Evening visit with atmospheric lighting, live music</li>
+                        <li>Special performances that bring the museum’s stories to life</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="new">
+            <div class="some">
+                <p class="foot">Museum & Interconnect Arequipa</p>
+                <p>10 Rue De la Mar</p>
+                <p>La Union, Arequipa 1000</p>
+                <p>info@InterconectArequipa.org</p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/EliMAmy" target="_blank"><img src="images/github.svg" alt="github"
+                        width="48" height="48"></a>
+                <a href="https://www.linkedin.com/in/rocio-maryorie-apaza" target="_blank"><img
+                        src="images/linkedin.svg" alt="linkedin" width="48" height="48"></a>
+                <a href="https://www.facebook.com/rocio.apaza.50" target="_blank"><img src="images/fb.svg"
+                        alt="facebook" width="48" height="48"></a>
+                <a href="https://teams.microsoft.com" target="_blank"><img src="images/microsoft-teams.svg"
+                        alt="microsoft-teams" width="48" height="48"></a>
+            </div>
+            <div>
+                <p>WDD231 Final Project</p>
+                <a href="links.html">ATTRIBUTIONS</a>
+                <a href="Video Content Requirements">VIDEO CONTENT REQUIREMENTS</a>
+                <p>&#x1F338;<span id="currentyear"></span> &#x1F338; Rocio Apaza Paricahua ,Peru &#x1F338;</p>
+                <p>Museum & Interconnect Arequipa</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

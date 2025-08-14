@@ -1,0 +1,116 @@
+@media (min-width: 1025px) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    h2{
+        font-weight: 300;
+    }
+    /**header**/
+    header {
+        grid-template-columns: 10% 50% 40%;
+        padding: 20px;
+
+    }
+    header h1{
+        font-size: x-large;
+    }
+    header img {
+        width: 60px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        background-color: var(--primary-color);
+        width: auto;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    .navigation li {
+        padding: 2px;
+    }
+
+    .navigation a:hover {
+        background-color: var(--primary-color);
+        text-decoration: underline;
+        border-radius: 25px;
+    }
+    /**HEADER THANK YOU*/
+    .thanksHeader {
+        padding: 10px;
+    }
+
+    .thanksHeader h1 {
+        font-weight: 500;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .results{
+        display: grid;
+        justify-content: center;
+    }
+    #results {
+        width: 500px;
+        height: auto;
+    }
+    /**MAIN**/
+
+    main {
+        max-width: 1100px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mycard {
+        width: 550px;
+        border-radius: 15px;
+    }
+    #more {
+        width: 670px;
+        height: 230px;
+    }
+    /**FOOTER***/
+    footer p {
+        font-size: medium;
+    }
+
+    .social {
+        column-gap: 20px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .social img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social a:hover {
+        background-color: var(--primary-color);
+        border-radius: 250px;
+    }
+
+    .new {
+        display: grid;
+        grid-template-columns: 25% 40% 35%;
+    }
+
+    .some {
+        padding-left: 20px;
+    }
+
+}

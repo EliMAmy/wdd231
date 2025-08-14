@@ -1,0 +1,19 @@
+{
+    "types": [
+        {
+            "title": "Basic Tour",
+            "information": "Includes entrance to 4 main museums in Arequipa (e.g., Museo Santuarios Andinos, Monasterio de Santa Catalina, Museo Arqueológico UNSA, and Museo de la Catedral).",
+            "benefits":"Affordable price, ideal for travelers with limited time. Guided tour in one language (English or Spanish) with essential highlights."
+        },
+        {
+            "title": "Medium Tour",
+            "information": "Includes entrance to 6 museums, adding options such as Casa del Moral and Museo de Arte Contemporáneo.",
+            "benefits": "More in-depth experience with extended guided explanations.Complimentary coffee break or local snack during the tour."
+        },
+        {
+            "title": "Full Tour",
+            "information": "Includes entrance to all available museums in the program (8–10), covering both the classic and modern art/culture collections.",
+            "benefits": "Full-day tour with bilingual guide and private transportation between museums.Exclusive access to special areas or temporary exhibitions, plus a certificate of participation."
+        }
+    ]
+}
