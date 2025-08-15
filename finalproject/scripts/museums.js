@@ -3,8 +3,6 @@ const url = "data/museums.json"
 const cards = document.querySelector('#cards');
 
 
-
-
 async function getMuseumData() {
     try {
         const response = await fetch(url); // request
